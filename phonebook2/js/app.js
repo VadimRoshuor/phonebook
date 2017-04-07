@@ -73,13 +73,8 @@ var phonebookApp = angular.module('phonebookApp', []).controller('phonebookCtrl'
         $scope.persons.splice(personId, 1)
 
     };
-    $scope.submitForm = function () {
 
-        // check to make sure the form is completely valid
-        if ($scope.userForm.$valid) {
-            alert('our form is amazing');
-        }
 
-    };
+
 
 });
